@@ -15,3 +15,39 @@
     padding: 20px;
     border-radius: 5px;
   }
+
+  .main{
+    background-color: #363636;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .header{
+    display:absolute ;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #FFFFFF;
+    width: 1000px;
+    height: 62px;
+    top: 25px;
+    left: 90px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8ch;
+
+  }
+  button{
+    position:relative;
+    width: 69.1px;
+    height: 15.14px;
+    top: 48.95px;
+    left: 29.53px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+  }
+

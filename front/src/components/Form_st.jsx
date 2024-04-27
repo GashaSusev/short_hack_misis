@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 function Form_st({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
     name: '',
-    surname: '',
-    gender: '',
+    mail: '',
+    field: '',
   });
 
 

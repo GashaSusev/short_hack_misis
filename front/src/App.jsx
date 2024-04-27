@@ -4,12 +4,14 @@ function App() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div>
-      <button onClick={() => setShowModal(true)}>Открыть форму</button>
+    <div className='main'>
+      <div className='header'>
+      <button onClick={() => setShowModal(true)}>менти</button>
       <Form_st isOpen={showModal} onClose={() => setShowModal(false)} />
 
-      <button onClick={() => setShowModal(true)}>Открыть форму</button>
+      <button onClick={() => setShowModal(true)}>ментор</button>
       <Form_st isOpen={showModal} onClose={() => setShowModal(false)} />
+      </div>
     </div>
   );
 }
