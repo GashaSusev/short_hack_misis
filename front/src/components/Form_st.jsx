@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import axios  from "axios";
 
 function Form_st({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
@@ -53,6 +53,9 @@ function Form_st({ isOpen, onClose }) {
       </div>
     </div>
   );
+  
 }
+axios.post("", { type: category, answers: items.join(",") }, { headers: {"Authorization" : `Bearer ${token}`} });
+  }
 
 export default Form_st
